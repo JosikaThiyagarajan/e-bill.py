@@ -1,0 +1,21 @@
+#python program to calculate electricity bill
+
+print"\telectricity bill"
+unit=int(input("please enter the no of units used:\n "))
+if unit<=100:
+        bill=0
+
+elif unit<=200:
+        bill=(100*0)+(unit-100)*2.5
+
+
+elif unit<=300:
+        bill=(100*0)+(100*2.5)+(unit-200)*3.0
+
+
+else:
+        bill=(100*0)+(100*2.5)+(100*3.0)+(unit-300)*3.5
+print "\tBILL\t"
+print "-----------------------------"
+print "amount to be paid is: ",bill
+print "-----------------------------"
